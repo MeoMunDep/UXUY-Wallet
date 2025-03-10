@@ -64,7 +64,7 @@ if not exist configs.json (
     echo   "howManyAccountsRunInOneTime": 100,>> configs.json
     echo   "doTasks": true,>> configs.json
     echo   "playGames": true,>> configs.json
-    echo   "referralCode": "">> configs.json
+    echo   "referralCode": "A_6713068747_inviteEarn">> configs.json
     echo }>> configs.json
     echo Created configs.json
 )
