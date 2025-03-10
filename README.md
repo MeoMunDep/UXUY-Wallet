@@ -92,9 +92,9 @@ query_id.../user...
 query_id.../user...
 ```
 
-### 2.1 `tokens.txt` - 🗂️ User Data
+### 2.1 `tokens.json` - 🗂️ User Data
 
-Do not touch this files, it contains user's tokens, if the tokens is expired, retrieve all the query_id/user again and delete all tokens in `tokens.txt` file.
+Do not touch this files, it contains user's tokens, if the tokens is expired, retrieve all the query_id/user again and delete all tokens in `tokens.json` file.
 
 ```txt
 ey...
