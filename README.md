@@ -2,7 +2,7 @@
 
 Welcome to the bot setup guide! Follow the steps below to install and configure the bot correctly. This guide is designed to be beginner-friendly, with clear explanations for each step.
 
-> [Termux guides if you run on mobile](https://github.com/MeoMunDep/Guides-for-using-my-script-on-termux.)
+> [Termux guides if you run on mobile](https://github.com/MeoMunDep/Guides-for-using-my-script-on-termux)
 
 ---
 
@@ -12,7 +12,7 @@ Welcome to the bot setup guide! Follow the steps below to install and configure 
 2. [Installation Steps](#installation-steps)
 3. [Configuration Files](#configuration-files)
    - [`configs.json`](#1-configsjson)
-   - [`datas.txt`](#2-datastxt)
+   - [`tokens.txt`](#2-tokenstxt)
    - [`wallets.txt`](#3-walletstxt)
    - [`proxies.txt`](#4-proxiestxt)
 4. [Running the Bot](#running-the-bot)
@@ -43,7 +43,7 @@ Download Node.js and npm here: [Download Link](https://t.me/KeoAirDropFreeNe/257
    Open your terminal or command prompt, navigate to the folder where the bot files are located, and run:
 
    ```bash
-   npm install user-agents axios colors p-limit https-proxy-agent socks-proxy-agent crypto-js ws uuid xlsx readline-sync
+   npm install user-agents axios colors https-proxy-agent socks-proxy-agent 
    ```
 
 3. **Prepare Configuration Files:**
@@ -82,19 +82,9 @@ This file controls the bot’s behavior. Below is an example configuration:
   - `doTasks`: Enable task completion.
   - `referralCode`: Add your referral code (optional). Do not change it if you want to support me ^^
 
-### 2. `datas.txt` - 🗂️ User Data
+### 2. `tokens.txt` - 🗂️ User Data
 
-Fill the data for `datas.txt` file from [here](https://t.me/KeoAirDropFreeNe/257/6879). This file contains user data in the following format:
-
-```txt
-query_id.../user...
-query_id.../user...
-query_id.../user...
-```
-
-### 2.1 `tokens.json` - 🗂️ User Data
-
-Do not touch this files, it contains user's tokens, if the tokens is expired, retrieve all the query_id/user again and delete all tokens in `tokens.json` file.
+Fill the data for `datas.txt` file from [here](https://t.me/KeoAirDropFreeNee/1609). This file contains user data in the following format:
 
 ```txt
 ey...
