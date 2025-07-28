@@ -43,7 +43,7 @@ Download Node.js and npm here: [Download Link](https://t.me/KeoAirDropFreeNe/257
    Open your terminal or command prompt, navigate to the folder where the bot files are located, and run:
 
    ```bash
-   npm install user-agents axios colors https-proxy-agent socks-proxy-agent 
+   npm install user-agents axios meo-forkcy-colors meo-forkcy-proxy
    ```
 
 3. **Prepare Configuration Files:**
@@ -134,7 +134,7 @@ _Note: each row for each account_
 1. Navigate to the folder containing the bot files:
 
    ```bash
-   cd /path/to/bot-folder
+   cd /path/to/uxuy-wallet
    ```
 
 2. Run the bot using the following command:
